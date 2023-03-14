@@ -1,0 +1,82 @@
+<!-- <% layout('layouts/boilerplate') %>
+
+    <div class="container d-flex justify-content-center align-items-center mt-5">
+
+        <div class="col-md-6 offset-md-3 col-xl-4 offset-xl-4" style="margin-right: 390px;">
+
+            <div class="card shadow">
+                <img
+                    src="https://images.unsplash.com/photo-1496545672447-f699b503d270?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80">
+                <div class="card-body">
+                    <h5 class="card-title">Login</h5>
+                    <form action="/login" method="post" class="validated-form" novalidate>
+
+                        <div class="mb-3">
+                            <label class="form-label" for="username">Username</label>
+                            <div class="input-group">
+
+                                <input type="text" class="form-control" id="username" aria-label="Username"
+                                    name="username" required autofocus>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="mb-3">
+                            <label class="form-label" for="description">Password </label>
+
+                            <input type="password" class="form-control" id="password" name="password" required>
+
+                        </div>
+                        <button class="btn btn-success w-100">Login</button>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+    </div> -->
+
+
+
+<% layout('layouts/boilerplate') %>
+
+    <div class="container d-flex justify-content-center align-items-center mt-5">
+
+
+        <div class="col-md-6 offset-md-3 col-xl-4 offset-xl-4" style="margin-right: 390px;">
+
+            <div class="card shadow">
+
+                <img src="https://images.unsplash.com/photo-1496545672447-f699b503d270?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80"
+                    class="card-img-top">
+                <div class="card-body">
+
+                    <h5 class="card-title">Login</h5>
+
+                    <form action="/login" method="post" class="validated-form" novalidate>
+
+                        <div class="mb-3">
+                            <label class="form-label" for="username">Username</label>
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="username" aria-label="Username"
+                                    name="username" required autofocus>
+                            </div>
+                        </div>
+
+
+                        <div class="mb-3">
+                            <label class="form-label" for="description">Password</label>
+                            <input type="password" class="form-control" id="password" name="password" required>
+                        </div>
+                        <button class="btn btn-success w-100" type="submit">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
